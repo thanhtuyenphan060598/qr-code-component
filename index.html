@@ -34,7 +34,7 @@
       }
       body {
         background-color: var(--slate-300);
-        font-family: 'Inter', sans-serif;
+        font-family: 'Outfit', sans-serif;
       }
       .attribution {
         font-size: 16px;
@@ -70,6 +70,11 @@
         height: 288px;
         border-radius: 10px;
         overflow: hidden;
+        transform: scale(1);
+        transition: transform 0.3s ease-in-out;
+      }
+      .qr-code-image:hover {
+        transform: scale(1.02);
       }
       .qr-code-image img {
         width: 100%;
@@ -136,7 +141,13 @@
           target="_blank"
           rel="noopener noreferrer"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Tuyenpt</a>.
+        >. Coded by
+        <a
+          href="https://www.frontendmentor.io/solutions/responsive-using-container-queries-ICC91iGU48"
+          target="_blank"
+          rel="noopener noreferrer"
+          >tuyenpt</a
+        >.
       </footer>
     </div>
   </body>
